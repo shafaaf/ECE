@@ -10,4 +10,4 @@ Instructions to pack, place, and route a simple circuit:
 Read go.sh for a more detailed explanation.
 
 
-This lab is based on profiling using GProf and GCov, and compiler optimizations, with no need of understanding VPR internal code base. See lab1handout for details and report with results we found.
+This lab is based on profiling using GProf and GCov, and compiler optimizations, with no need of understanding VPR internal code base. See lab1handout for details and report to see results we found.
