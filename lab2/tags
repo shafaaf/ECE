@@ -1,0 +1,146 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BSIZE	hw2/driver_cpe.c	38;"	d	file:
+C1024	hw2/config.h	33;"	d
+C128	hw2/config.h	30;"	d
+C2048	hw2/config.h	34;"	d
+C256	hw2/config.h	31;"	d
+C4096	hw2/config.h	35;"	d
+C512	hw2/config.h	32;"	d
+C64	hw2/config.h	29;"	d
+C8192	hw2/config.h	36;"	d
+CACHE_BLOCK	hw2/fcyc.c	15;"	d	file:
+CACHE_BYTES	hw2/fcyc.c	14;"	d	file:
+CC	hw2/Makefile	/^CC = gcc$/;"	m
+CFLAGS	hw2/Makefile	/^CFLAGS = -Wall -O2 -mcmodel=medium$/;"	m
+CLEAR_CACHE	hw2/fcyc.c	13;"	d	file:
+COMPENSATE	hw2/fcyc.c	12;"	d	file:
+DIM_CNT	hw2/driver_cpe.c	35;"	d	file:
+DRIVER_CPE_OBJS	hw2/Makefile	/^DRIVER_CPE_OBJS = driver_cpe.o kernels.o fcyc.o clock.o $/;"	m
+EPSILON	hw2/fcyc.c	11;"	d	file:
+IS_ALPHA	hw2/clock.c	13;"	d	file:
+IS_ALPHA	hw2/clock.c	15;"	d	file:
+IS_x86	hw2/clock.c	20;"	d	file:
+IS_x86	hw2/clock.c	22;"	d	file:
+IS_x86	hw2/clock.c	24;"	d	file:
+K	hw2/fcyc.c	9;"	d	file:
+KEEP_SAMPLES	hw2/fcyc.c	31;"	d	file:
+KEEP_VALS	hw2/fcyc.c	30;"	d	file:
+LIBS	hw2/Makefile	/^LIBS = -lm$/;"	m
+MAXSAMPLES	hw2/fcyc.c	10;"	d	file:
+MAX_BENCHMARKS	hw2/driver_cpe.c	34;"	d	file:
+MAX_DIM	hw2/driver_cpe.c	40;"	d	file:
+N	myTest/rectangle.c	3;"	d	file:
+NEVENT	hw2/clock.c	170;"	d	file:
+ODD_DIM	hw2/driver_cpe.c	41;"	d	file:
+R1024	hw2/config.h	17;"	d
+R128	hw2/config.h	14;"	d
+R16384	hw2/config.h	21;"	d
+R2048	hw2/config.h	18;"	d
+R256	hw2/config.h	15;"	d
+R4096	hw2/config.h	19;"	d
+R512	hw2/config.h	16;"	d
+R64	hw2/config.h	13;"	d
+R8192	hw2/config.h	20;"	d
+RECORDTHRESH	hw2/clock.c	172;"	d	file:
+RIDX	hw2/defs.h	11;"	d
+RIDX	myTest/rectangle.c	4;"	d	file:
+THRESHOLD	hw2/clock.c	171;"	d	file:
+_CONFIG_H_	hw2/config.h	5;"	d
+_DEFS_H_	hw2/defs.h	7;"	d
+access_counter	hw2/clock.c	/^void access_counter(unsigned *hi, unsigned *lo)$/;"	f
+add_rotate_function	hw2/driver_cpe.c	/^void add_rotate_function(lab_test_func f, char *description) $/;"	f
+add_sample	hw2/fcyc.c	/^static void add_sample(double val)$/;"	f	file:
+bench_t	hw2/driver_cpe.c	/^} bench_t;$/;"	t	typeref:struct:__anon3	file:
+benchmarks_rotate	hw2/driver_cpe.c	/^static bench_t benchmarks_rotate[MAX_BENCHMARKS];$/;"	v	file:
+blue	hw2/defs.h	/^   unsigned short blue;$/;"	m	struct:__anon2
+cache_block	hw2/fcyc.c	/^static int cache_block = CACHE_BLOCK;$/;"	v	file:
+cache_buf	hw2/fcyc.c	/^static int *cache_buf = NULL;$/;"	v	file:
+cache_bytes	hw2/fcyc.c	/^static int cache_bytes = CACHE_BYTES;$/;"	v	file:
+callibrate	hw2/clock.c	/^static void callibrate(int verbose)$/;"	f	file:
+check_orig	hw2/driver_cpe.c	/^static int check_orig(int dim) $/;"	f	file:
+check_rotate	hw2/driver_cpe.c	/^static int check_rotate(int dim) $/;"	f	file:
+clear	hw2/fcyc.c	/^static void clear()$/;"	f	file:
+clear_cache	hw2/fcyc.c	/^static int clear_cache = CLEAR_CACHE;$/;"	v	file:
+compare_pixels	hw2/driver_cpe.c	/^static int compare_pixels(pixel p1, pixel p2) $/;"	f	file:
+compensate	hw2/fcyc.c	/^static int compensate = COMPENSATE;$/;"	v	file:
+copy_of_orig	hw2/driver_cpe.c	/^static pixel *copy_of_orig = NULL; \/* copy of original for checking result *\/$/;"	v	file:
+counter	hw2/clock.c	/^static unsigned int (*counter)(void)= (void *)counterRoutine;$/;"	v	file:
+counterRoutine	hw2/clock.c	/^static unsigned int counterRoutine[] =$/;"	v	file:
+cpes	hw2/driver_cpe.c	/^    double cpes[DIM_CNT]; \/* One CPE result for each dimension *\/$/;"	m	struct:__anon3	file:
+create	hw2/driver_cpe.c	/^static void create(int dim)$/;"	f	file:
+cyc_hi	hw2/clock.c	/^static unsigned cyc_hi = 0;$/;"	v	file:
+cyc_lo	hw2/clock.c	/^static unsigned cyc_lo = 0;$/;"	v	file:
+cyc_per_tick	hw2/clock.c	/^static double cyc_per_tick = 0.0;$/;"	v	file:
+data	hw2/driver_cpe.c	/^static pixel data[(3*MAX_DIM*MAX_DIM) + (BSIZE\/sizeof(pixel))];$/;"	v	file:
+description	hw2/driver_cpe.c	/^    char *description;    \/* ASCII description of the test function *\/$/;"	m	struct:__anon3	file:
+displayMatrix	myTest/rectangle.c	/^void displayMatrix(int mat[N][N]){$/;"	f
+email1	hw2/defs.h	/^  char *name1, *email1;$/;"	m	struct:__anon1
+email2	hw2/defs.h	/^  char *name2, *email2;$/;"	m	struct:__anon1
+epsilon	hw2/fcyc.c	/^static double epsilon = EPSILON;$/;"	v	file:
+fcyc	hw2/fcyc.c	/^double fcyc(test_funct f, int *params)$/;"	f
+fcyc_v	hw2/fcyc.c	/^double fcyc_v(test_funct_v f, void *params[])$/;"	f
+func_wrapper	hw2/driver_cpe.c	/^void func_wrapper(void *arglist[]) $/;"	f
+get_comp_counter	hw2/clock.c	/^double get_comp_counter() $/;"	f
+get_counter	hw2/clock.c	/^double get_counter()$/;"	f
+green	hw2/defs.h	/^   unsigned short green;$/;"	m	struct:__anon2
+has_converged	hw2/fcyc.c	/^static int has_converged()$/;"	f	file:
+init_sampler	hw2/fcyc.c	/^static void init_sampler()$/;"	f	file:
+kbest	hw2/fcyc.c	/^static int kbest = K;$/;"	v	file:
+lab_test_func	hw2/defs.h	/^typedef void (*lab_test_func) (int, pixel*, pixel*);$/;"	t
+main	hw2/driver_cpe.c	/^int main(int argc, char *argv[])$/;"	f
+main	myTest/rectangle.c	/^int main()$/;"	f
+max	hw2/driver_cpe.c	45;"	d	file:
+maxsamples	hw2/fcyc.c	/^static int maxsamples = MAXSAMPLES;$/;"	v	file:
+mhz	hw2/clock.c	/^double mhz(int verbose)$/;"	f
+mhz_full	hw2/clock.c	/^double mhz_full(int verbose, int sleeptime)$/;"	f
+min	hw2/driver_cpe.c	44;"	d	file:
+myRotate	myTest/rectangle.c	/^void myRotate(int dim, int *src, int *dst) $/;"	f
+naiveRotate	myTest/rectangle.c	/^void naiveRotate(int *src, int *dst){$/;"	f
+naive_rotate	hw2/kernels.c	/^void naive_rotate(int dim, pixel *src, pixel *dst) $/;"	f
+naive_rotate_descr	hw2/kernels.c	/^char naive_rotate_descr[] = "naive_rotate: Naive baseline implementation";$/;"	v
+name1	hw2/defs.h	/^  char *name1, *email1;$/;"	m	struct:__anon1
+name2	hw2/defs.h	/^  char *name2, *email2;$/;"	m	struct:__anon1
+orig	hw2/driver_cpe.c	/^static pixel *orig = NULL;         \/* original image *\/$/;"	v	file:
+ovhd	hw2/clock.c	/^double ovhd()$/;"	f
+pixel	hw2/defs.h	/^} pixel;$/;"	t	typeref:struct:__anon2
+random_in_interval	hw2/driver_cpe.c	/^static int random_in_interval(int low, int high) $/;"	f	file:
+red	hw2/defs.h	/^   unsigned short red;$/;"	m	struct:__anon2
+register_rotate_functions	hw2/kernels.c	/^void register_rotate_functions() $/;"	f
+result	hw2/driver_cpe.c	/^static pixel *result = NULL;       \/* result image *\/$/;"	v	file:
+rotate	hw2/kernels.c	/^void rotate(int dim, pixel *src, pixel *dst) $/;"	f
+rotate_baseline_cpes	hw2/driver_cpe.c	/^static double rotate_baseline_cpes[] = {R64, R128, R256, R512, R1024, R2048, R4096, R8192, R16384};$/;"	v	file:
+rotate_benchmark_count	hw2/driver_cpe.c	/^static int rotate_benchmark_count = 0;$/;"	v	file:
+rotate_descr	hw2/kernels.c	/^char rotate_descr[] = "rotate: Current working version";$/;"	v
+rotate_maxmean	hw2/driver_cpe.c	/^double rotate_maxmean = 0.0;$/;"	v
+rotate_maxmean_desc	hw2/driver_cpe.c	/^char *rotate_maxmean_desc = NULL;$/;"	v
+rotate_total_mean	hw2/driver_cpe.c	/^double rotate_total_mean = 0.0;$/;"	v
+run_rotate_benchmark	hw2/driver_cpe.c	/^void run_rotate_benchmark(int idx, int dim) $/;"	f
+samplecount	hw2/fcyc.c	/^static int samplecount = 0;$/;"	v	file:
+samples	hw2/fcyc.c	/^static double *samples = NULL;$/;"	v	file:
+set_fcyc_cache_block	hw2/fcyc.c	/^void set_fcyc_cache_block(int bytes) {$/;"	f
+set_fcyc_cache_size	hw2/fcyc.c	/^void set_fcyc_cache_size(int bytes)$/;"	f
+set_fcyc_clear_cache	hw2/fcyc.c	/^void set_fcyc_clear_cache(int clear)$/;"	f
+set_fcyc_compensate	hw2/fcyc.c	/^void set_fcyc_compensate(int compensate_arg)$/;"	f
+set_fcyc_epsilon	hw2/fcyc.c	/^void set_fcyc_epsilon(double epsilon_arg)$/;"	f
+set_fcyc_k	hw2/fcyc.c	/^void set_fcyc_k(int k)$/;"	f
+set_fcyc_maxsamples	hw2/fcyc.c	/^void set_fcyc_maxsamples(int maxsamples_arg)$/;"	f
+sink	hw2/fcyc.c	/^static volatile int sink = 0;$/;"	v	file:
+start_comp_counter	hw2/clock.c	/^void start_comp_counter() $/;"	f
+start_counter	hw2/clock.c	/^void start_counter()$/;"	f
+start_tick	hw2/clock.c	/^static clock_t start_tick = 0;$/;"	v	file:
+team	hw2/defs.h	/^  char *team;$/;"	m	struct:__anon1
+team	hw2/kernels.c	/^team_t team = {$/;"	v
+team_t	hw2/defs.h	/^} team_t;$/;"	t	typeref:struct:__anon1
+test_dim_rotate	hw2/driver_cpe.c	/^static int test_dim_rotate[] = {64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384};$/;"	v	file:
+test_funct	hw2/fcyc.h	/^typedef void (*test_funct)(int *);$/;"	t
+test_funct_v	hw2/fcyc.h	/^typedef void (*test_funct_v)(void *);$/;"	t
+test_rotate	hw2/driver_cpe.c	/^void test_rotate(int bench_index) $/;"	f
+tfunct	hw2/driver_cpe.c	/^    lab_test_func tfunct; \/* The test function *\/$/;"	m	struct:__anon3	file:
+usage	hw2/driver_cpe.c	/^void usage(char *progname) $/;"	f
+valid	hw2/driver_cpe.c	/^    unsigned short valid; \/* The function is tested if this is non zero *\/$/;"	m	struct:__anon3	file:
+values	hw2/fcyc.c	/^static double *values = NULL;$/;"	v	file:

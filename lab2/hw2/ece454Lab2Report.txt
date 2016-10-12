@@ -1,0 +1,22 @@
+ECE454 2016 Lab 2 report
+done by 
+Shafaaf Khaled Hossain, 998891515
+Sai Kiran Varikooty, 998440307
+
+- The implementation we decided to stick to is using a combination of loop invariant code motion, loop unrolling, and tiling. 
+
+- We got different speedups for different sizes of dim and so used a certain combination of techniques for dim less than or equal to 1024 and another for dim having a greater size.
+
+- For dim less than or equal to 1024, we applied loop unrolling on the outer loop's i variable and so do more iterations within the inner for loop and i's stride thus increases.
+      - We use a stride of 16. This helps as the dst addresses are accessed sequentially and so more cache hits.
+      - Cache misses for writes are more expensive than cache misses for reads and so we concentrated more the on dst array.
+      - We also did loop invariant code motion for dim -1 and dim -1 - j.
+
+- For dim greater than 1024, we applied tiling using a tile size of 16. 
+	-We made accesses to the destination addresses sequential for the reason as stated before for more cache hits. 
+		-In the source array, the accesses are done row-wise so when the tile size is small enough, there are more chances of cache hits from the previous rows due to the cache previously storing 				nearby memory accesses. 
+		-These will be accessed when the array goes back to the previous rows and next column. This technique helps both src and dest arrays. 
+	- In addition, dim -1 and dim -1 - y are being used constantly and so the loop invariant code motion technique is applied. 
+	- Also loop unrolling is applied for the inner most loop and x is strided by 8 and so less branching to improve performance.
+
+
