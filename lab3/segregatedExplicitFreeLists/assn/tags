@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS =  -Wall -O1 -g$/;"	m
+CHUNKSIZE	mm.c	51;"	d	file:
+DSIZE	mm.c	50;"	d	file:
+FTRP	mm.c	68;"	d	file:
+GET	mm.c	59;"	d	file:
+GET_ALLOC	mm.c	64;"	d	file:
+GET_NEXT	mm.c	76;"	d	file:
+GET_PREV	mm.c	77;"	d	file:
+GET_SIZE	mm.c	63;"	d	file:
+HDRP	mm.c	67;"	d	file:
+MAX	mm.c	53;"	d	file:
+NEXT_BLKP	mm.c	71;"	d	file:
+OBJS	Makefile	/^OBJS = mdriver.o mm.o memlib.o fsecs.o fcyc.o clock.o ftimer.o$/;"	m
+PACK	mm.c	56;"	d	file:
+PREV_BLKP	mm.c	72;"	d	file:
+PUT	mm.c	60;"	d	file:
+WSIZE	mm.c	49;"	d	file:
+addToFreeList	mm.c	/^void addToFreeList(void *bp)$/;"	f
+coalesce	mm.c	/^void *coalesce(void *bp)$/;"	f
+extend_heap	mm.c	/^void *extend_heap(size_t words)$/;"	f
+find_fit	mm.c	/^void * find_fit(size_t asize)$/;"	f
+freeList	mm.c	/^uintptr_t* freeList;$/;"	v
+heap_listp	mm.c	/^void* heap_listp = NULL;$/;"	v
+id1	mm.h	/^    char *id1;      \/* Login ID of first member. *\/$/;"	m	struct:__anon1
+id2	mm.h	/^    char *id2;      \/* Login ID of second member. *\/$/;"	m	struct:__anon1
+mm_check	mm.c	/^int mm_check(void){$/;"	f
+mm_free	mm.c	/^void mm_free(void *bp)$/;"	f
+mm_init	mm.c	/^ int mm_init(void)$/;"	f
+mm_malloc	mm.c	/^void *mm_malloc(size_t size)$/;"	f
+mm_realloc	mm.c	/^void *mm_realloc(void *ptr, size_t size)$/;"	f
+name1	mm.h	/^    char *name1;    \/* Full name of first member. *\/$/;"	m	struct:__anon1
+name2	mm.h	/^    char *name2;    \/* Full name of second member (if any). *\/$/;"	m	struct:__anon1
+place	mm.c	/^void place(void* bp, size_t asize)$/;"	f
+team	mm.c	/^team_t team = {$/;"	v
+team_t	mm.h	/^} team_t;$/;"	t	typeref:struct:__anon1
+teamname	mm.h	/^    char *teamname; \/* ID1+ID2 or ID1 *\/$/;"	m	struct:__anon1
