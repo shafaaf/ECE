@@ -1,0 +1,244 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	defaultProgram/Makefile	/^CC = g++-4.9$/;"	m
+CC	listLevelLock/Makefile	/^CC = g++-4.9$/;"	m
+CC	singleGlobalLock/Makefile	/^CC = g++-4.9$/;"	m
+CC	tmLock/Makefile	/^CC = g++-4.9$/;"	m
+CFLAGS	defaultProgram/Makefile	/^CFLAGS = -O3$/;"	m
+CFLAGS	listLevelLock/Makefile	/^CFLAGS = -O3$/;"	m
+CFLAGS	singleGlobalLock/Makefile	/^CFLAGS = -O3$/;"	m
+CFLAGS	tmLock/Makefile	/^CFLAGS = -O3$/;"	m
+DEBUG_PRINT	listLevelLock/randtrack.cc	31;"	d	file:
+DEBUG_PRINT	listLevelLock/randtrack.cc	33;"	d	file:
+DEBUG_PRINT	singleGlobalLock/randtrack.cc	31;"	d	file:
+DEBUG_PRINT	singleGlobalLock/randtrack.cc	33;"	d	file:
+DEBUG_PRINT	tmLock/randtrack.cc	31;"	d	file:
+DEBUG_PRINT	tmLock/randtrack.cc	33;"	d	file:
+HASH_H	defaultProgram/hash.h	3;"	d
+HASH_H	listLevelLock/hash.h	3;"	d
+HASH_H	singleGlobalLock/hash.h	3;"	d
+HASH_H	tmLock/hash.h	3;"	d
+HASH_INDEX	defaultProgram/hash.h	8;"	d
+HASH_INDEX	listLevelLock/hash.h	8;"	d
+HASH_INDEX	singleGlobalLock/hash.h	8;"	d
+HASH_INDEX	tmLock/hash.h	8;"	d
+LIST_H	defaultProgram/list.h	3;"	d
+LIST_H	listLevelLock/list.h	3;"	d
+LIST_H	singleGlobalLock/list.h	3;"	d
+LIST_H	tmLock/list.h	3;"	d
+NUM_SEED_STREAMS	defaultProgram/randtrack.cc	10;"	d	file:
+NUM_SEED_STREAMS	listLevelLock/randtrack.cc	11;"	d	file:
+NUM_SEED_STREAMS	singleGlobalLock/randtrack.cc	11;"	d	file:
+NUM_SEED_STREAMS	tmLock/randtrack.cc	11;"	d	file:
+RAND_NUM_UPPER_BOUND	defaultProgram/randtrack.cc	9;"	d	file:
+RAND_NUM_UPPER_BOUND	listLevelLock/randtrack.cc	10;"	d	file:
+RAND_NUM_UPPER_BOUND	singleGlobalLock/randtrack.cc	10;"	d	file:
+RAND_NUM_UPPER_BOUND	tmLock/randtrack.cc	10;"	d	file:
+SAMPLES_TO_COLLECT	defaultProgram/randtrack.cc	8;"	d	file:
+SAMPLES_TO_COLLECT	listLevelLock/randtrack.cc	9;"	d	file:
+SAMPLES_TO_COLLECT	singleGlobalLock/randtrack.cc	9;"	d	file:
+SAMPLES_TO_COLLECT	tmLock/randtrack.cc	9;"	d	file:
+_DEFS_H_	defaultProgram/defs.h	2;"	d
+_DEFS_H_	listLevelLock/defs.h	2;"	d
+_DEFS_H_	singleGlobalLock/defs.h	2;"	d
+_DEFS_H_	tmLock/defs.h	2;"	d
+cleanup	defaultProgram/hash.h	/^hash<Ele,Keytype>::cleanup(){$/;"	f	class:hash
+cleanup	defaultProgram/list.h	/^list<Ele,Keytype>::cleanup(){$/;"	f	class:list
+cleanup	listLevelLock/hash.h	/^hash<Ele,Keytype>::cleanup(){$/;"	f	class:hash
+cleanup	listLevelLock/list.h	/^list<Ele,Keytype>::cleanup(){$/;"	f	class:list
+cleanup	singleGlobalLock/hash.h	/^hash<Ele,Keytype>::cleanup(){$/;"	f	class:hash
+cleanup	singleGlobalLock/list.h	/^list<Ele,Keytype>::cleanup(){$/;"	f	class:list
+cleanup	tmLock/hash.h	/^hash<Ele,Keytype>::cleanup(){$/;"	f	class:hash
+cleanup	tmLock/list.h	/^list<Ele,Keytype>::cleanup(){$/;"	f	class:list
+count	defaultProgram/randtrack.cc	/^  unsigned count;$/;"	m	class:sample	file:
+count	listLevelLock/randtrack.cc	/^  unsigned count;$/;"	m	class:sample	file:
+count	singleGlobalLock/randtrack.cc	/^  unsigned count;$/;"	m	class:sample	file:
+count	tmLock/randtrack.cc	/^  unsigned count;$/;"	m	class:sample	file:
+email1	defaultProgram/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon3
+email1	listLevelLock/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon2
+email1	singleGlobalLock/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon4
+email1	tmLock/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon1
+email2	defaultProgram/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon3
+email2	listLevelLock/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon2
+email2	singleGlobalLock/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon4
+email2	tmLock/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon1
+end	listLevelLock/randtrack.cc	/^	int end;$/;"	m	struct:functionArgs	file:
+end	singleGlobalLock/randtrack.cc	/^	int end;$/;"	m	struct:functionArgs	file:
+end	tmLock/randtrack.cc	/^	int end;$/;"	m	struct:functionArgs	file:
+entries	defaultProgram/hash.h	/^  list<Ele,Keytype> *entries;$/;"	m	class:hash
+entries	listLevelLock/hash.h	/^  list<Ele,Keytype> *entries;$/;"	m	class:hash
+entries	singleGlobalLock/hash.h	/^  list<Ele,Keytype> *entries;$/;"	m	class:hash
+entries	tmLock/hash.h	/^  list<Ele,Keytype> *entries;$/;"	m	class:hash
+functionArgs	listLevelLock/randtrack.cc	/^typedef struct functionArgs{$/;"	s	file:
+functionArgs	listLevelLock/randtrack.cc	/^}functionArgs;$/;"	t	typeref:struct:functionArgs	file:
+functionArgs	singleGlobalLock/randtrack.cc	/^typedef struct functionArgs{$/;"	s	file:
+functionArgs	singleGlobalLock/randtrack.cc	/^}functionArgs;$/;"	t	typeref:struct:functionArgs	file:
+functionArgs	tmLock/randtrack.cc	/^typedef struct functionArgs{$/;"	s	file:
+functionArgs	tmLock/randtrack.cc	/^}functionArgs;$/;"	t	typeref:struct:functionArgs	file:
+get_list	defaultProgram/hash.h	/^hash<Ele,Keytype>::get_list(unsigned the_idx){$/;"	f	class:hash
+get_list	listLevelLock/hash.h	/^hash<Ele,Keytype>::get_list(unsigned the_idx){$/;"	f	class:hash
+get_list	singleGlobalLock/hash.h	/^hash<Ele,Keytype>::get_list(unsigned the_idx){$/;"	f	class:hash
+get_list	tmLock/hash.h	/^hash<Ele,Keytype>::get_list(unsigned the_idx){$/;"	f	class:hash
+h	defaultProgram/randtrack.cc	/^hash<sample,unsigned> h;$/;"	v
+h	listLevelLock/randtrack.cc	/^hash<sample,unsigned> h;$/;"	v
+h	singleGlobalLock/randtrack.cc	/^hash<sample,unsigned> h;$/;"	v
+h	tmLock/randtrack.cc	/^hash<sample,unsigned> h;$/;"	v
+hash	defaultProgram/hash.h	/^template<class Ele, class Keytype> class hash {$/;"	c
+hash	listLevelLock/hash.h	/^template<class Ele, class Keytype> class hash {$/;"	c
+hash	singleGlobalLock/hash.h	/^template<class Ele, class Keytype> class hash {$/;"	c
+hash	tmLock/hash.h	/^template<class Ele, class Keytype> class hash {$/;"	c
+head	defaultProgram/list.h	/^  Ele *head(){ return my_head; }$/;"	f	class:list
+head	listLevelLock/list.h	/^  Ele *head(){ return my_head; }$/;"	f	class:list
+head	singleGlobalLock/list.h	/^  Ele *head(){ return my_head; }$/;"	f	class:list
+head	tmLock/list.h	/^  Ele *head(){ return my_head; }$/;"	f	class:list
+insert	defaultProgram/hash.h	/^hash<Ele,Keytype>::insert(Ele *e){$/;"	f	class:hash
+insert	listLevelLock/hash.h	/^hash<Ele,Keytype>::insert(Ele *e){$/;"	f	class:hash
+insert	singleGlobalLock/hash.h	/^hash<Ele,Keytype>::insert(Ele *e){$/;"	f	class:hash
+insert	tmLock/hash.h	/^hash<Ele,Keytype>::insert(Ele *e){$/;"	f	class:hash
+key	defaultProgram/randtrack.cc	/^  unsigned key(){return my_key;}$/;"	f	class:sample
+key	listLevelLock/randtrack.cc	/^  unsigned key(){return my_key;}$/;"	f	class:sample
+key	singleGlobalLock/randtrack.cc	/^  unsigned key(){return my_key;}$/;"	f	class:sample
+key	tmLock/randtrack.cc	/^  unsigned key(){return my_key;}$/;"	f	class:sample
+list	defaultProgram/list.h	/^  list(){$/;"	f	class:list
+list	defaultProgram/list.h	/^template<class Ele, class Keytype> class list {$/;"	c
+list	listLevelLock/list.h	/^  list(){$/;"	f	class:list
+list	listLevelLock/list.h	/^template<class Ele, class Keytype> class list {$/;"	c
+list	singleGlobalLock/list.h	/^  list(){$/;"	f	class:list
+list	singleGlobalLock/list.h	/^template<class Ele, class Keytype> class list {$/;"	c
+list	tmLock/list.h	/^  list(){$/;"	f	class:list
+list	tmLock/list.h	/^template<class Ele, class Keytype> class list {$/;"	c
+lookup	defaultProgram/hash.h	/^hash<Ele,Keytype>::lookup(Keytype the_key){$/;"	f	class:hash
+lookup	defaultProgram/list.h	/^list<Ele,Keytype>::lookup(Keytype the_key){$/;"	f	class:list
+lookup	listLevelLock/hash.h	/^hash<Ele,Keytype>::lookup(Keytype the_key){$/;"	f	class:hash
+lookup	listLevelLock/list.h	/^list<Ele,Keytype>::lookup(Keytype the_key){$/;"	f	class:list
+lookup	singleGlobalLock/hash.h	/^hash<Ele,Keytype>::lookup(Keytype the_key){$/;"	f	class:hash
+lookup	singleGlobalLock/list.h	/^list<Ele,Keytype>::lookup(Keytype the_key){$/;"	f	class:list
+lookup	tmLock/hash.h	/^hash<Ele,Keytype>::lookup(Keytype the_key){$/;"	f	class:hash
+lookup	tmLock/list.h	/^list<Ele,Keytype>::lookup(Keytype the_key){$/;"	f	class:list
+main	defaultProgram/randtrack.cc	/^main (int argc, char* argv[]){$/;"	f
+main	listLevelLock/randtrack.cc	/^main (int argc, char* argv[]){$/;"	f
+main	singleGlobalLock/randtrack.cc	/^main (int argc, char* argv[]){$/;"	f
+main	tmLock/randtrack.cc	/^main (int argc, char* argv[]){$/;"	f
+myMutex	listLevelLock/randtrack.cc	/^pthread_mutex_t myMutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+myMutex	singleGlobalLock/randtrack.cc	/^pthread_mutex_t myMutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+my_head	defaultProgram/list.h	/^  Ele *my_head;$/;"	m	class:list
+my_head	listLevelLock/list.h	/^  Ele *my_head;$/;"	m	class:list
+my_head	singleGlobalLock/list.h	/^  Ele *my_head;$/;"	m	class:list
+my_head	tmLock/list.h	/^  Ele *my_head;$/;"	m	class:list
+my_key	defaultProgram/randtrack.cc	/^  unsigned my_key;$/;"	m	class:sample	file:
+my_key	listLevelLock/randtrack.cc	/^  unsigned my_key;$/;"	m	class:sample	file:
+my_key	singleGlobalLock/randtrack.cc	/^  unsigned my_key;$/;"	m	class:sample	file:
+my_key	tmLock/randtrack.cc	/^  unsigned my_key;$/;"	m	class:sample	file:
+my_num_ele	defaultProgram/list.h	/^  unsigned long long my_num_ele;$/;"	m	class:list
+my_num_ele	listLevelLock/list.h	/^  unsigned long long my_num_ele;$/;"	m	class:list
+my_num_ele	singleGlobalLock/list.h	/^  unsigned long long my_num_ele;$/;"	m	class:list
+my_num_ele	tmLock/list.h	/^  unsigned long long my_num_ele;$/;"	m	class:list
+my_size	defaultProgram/hash.h	/^  unsigned my_size;$/;"	m	class:hash
+my_size	listLevelLock/hash.h	/^  unsigned my_size;$/;"	m	class:hash
+my_size	singleGlobalLock/hash.h	/^  unsigned my_size;$/;"	m	class:hash
+my_size	tmLock/hash.h	/^  unsigned my_size;$/;"	m	class:hash
+my_size_log	defaultProgram/hash.h	/^  unsigned my_size_log;$/;"	m	class:hash
+my_size_log	listLevelLock/hash.h	/^  unsigned my_size_log;$/;"	m	class:hash
+my_size_log	singleGlobalLock/hash.h	/^  unsigned my_size_log;$/;"	m	class:hash
+my_size_log	tmLock/hash.h	/^  unsigned my_size_log;$/;"	m	class:hash
+my_size_mask	defaultProgram/hash.h	/^  unsigned my_size_mask;$/;"	m	class:hash
+my_size_mask	listLevelLock/hash.h	/^  unsigned my_size_mask;$/;"	m	class:hash
+my_size_mask	singleGlobalLock/hash.h	/^  unsigned my_size_mask;$/;"	m	class:hash
+my_size_mask	tmLock/hash.h	/^  unsigned my_size_mask;$/;"	m	class:hash
+name1	defaultProgram/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon3
+name1	listLevelLock/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon2
+name1	singleGlobalLock/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon4
+name1	tmLock/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon1
+name2	defaultProgram/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon3
+name2	listLevelLock/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon2
+name2	singleGlobalLock/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon4
+name2	tmLock/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon1
+next	defaultProgram/randtrack.cc	/^  sample *next;$/;"	m	class:sample	file:
+next	listLevelLock/randtrack.cc	/^  sample *next;$/;"	m	class:sample	file:
+next	singleGlobalLock/randtrack.cc	/^  sample *next;$/;"	m	class:sample	file:
+next	tmLock/randtrack.cc	/^  sample *next;$/;"	m	class:sample	file:
+num_ele	defaultProgram/list.h	/^  unsigned num_ele(){return my_num_ele;}$/;"	f	class:list
+num_ele	listLevelLock/list.h	/^  unsigned num_ele(){return my_num_ele;}$/;"	f	class:list
+num_ele	singleGlobalLock/list.h	/^  unsigned num_ele(){return my_num_ele;}$/;"	f	class:list
+num_ele	tmLock/list.h	/^  unsigned num_ele(){return my_num_ele;}$/;"	f	class:list
+num_threads	defaultProgram/randtrack.cc	/^unsigned num_threads;$/;"	v
+num_threads	listLevelLock/randtrack.cc	/^unsigned num_threads;$/;"	v
+num_threads	singleGlobalLock/randtrack.cc	/^unsigned num_threads;$/;"	v
+num_threads	tmLock/randtrack.cc	/^unsigned num_threads;$/;"	v
+number1	defaultProgram/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon3
+number1	listLevelLock/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon2
+number1	singleGlobalLock/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon4
+number1	tmLock/defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon1
+number2	defaultProgram/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon3
+number2	listLevelLock/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon2
+number2	singleGlobalLock/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon4
+number2	tmLock/defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon1
+pop	defaultProgram/list.h	/^list<Ele,Keytype>::pop(){$/;"	f	class:list
+pop	listLevelLock/list.h	/^list<Ele,Keytype>::pop(){$/;"	f	class:list
+pop	singleGlobalLock/list.h	/^list<Ele,Keytype>::pop(){$/;"	f	class:list
+pop	tmLock/list.h	/^list<Ele,Keytype>::pop(){$/;"	f	class:list
+print	defaultProgram/hash.h	/^hash<Ele,Keytype>::print(FILE *f){$/;"	f	class:hash
+print	defaultProgram/list.h	/^list<Ele,Keytype>::print(FILE *f){$/;"	f	class:list
+print	defaultProgram/randtrack.cc	/^  void print(FILE *f){printf("%d %d\\n",my_key,count);}$/;"	f	class:sample
+print	listLevelLock/hash.h	/^hash<Ele,Keytype>::print(FILE *f){$/;"	f	class:hash
+print	listLevelLock/list.h	/^list<Ele,Keytype>::print(FILE *f){$/;"	f	class:list
+print	listLevelLock/randtrack.cc	/^  void print(FILE *f){printf("%d %d\\n",my_key,count);}$/;"	f	class:sample
+print	singleGlobalLock/hash.h	/^hash<Ele,Keytype>::print(FILE *f){$/;"	f	class:hash
+print	singleGlobalLock/list.h	/^list<Ele,Keytype>::print(FILE *f){$/;"	f	class:list
+print	singleGlobalLock/randtrack.cc	/^  void print(FILE *f){printf("%d %d\\n",my_key,count);}$/;"	f	class:sample
+print	tmLock/hash.h	/^hash<Ele,Keytype>::print(FILE *f){$/;"	f	class:hash
+print	tmLock/list.h	/^list<Ele,Keytype>::print(FILE *f){$/;"	f	class:list
+print	tmLock/randtrack.cc	/^  void print(FILE *f){printf("%d %d\\n",my_key,count);}$/;"	f	class:sample
+processSeeds	listLevelLock/randtrack.cc	/^void* processSeeds(void* args)$/;"	f
+processSeeds	singleGlobalLock/randtrack.cc	/^void* processSeeds(void* args)$/;"	f
+processSeeds	tmLock/randtrack.cc	/^void* processSeeds(void* args)$/;"	f
+push	defaultProgram/list.h	/^list<Ele,Keytype>::push(Ele *e){$/;"	f	class:list
+push	listLevelLock/list.h	/^list<Ele,Keytype>::push(Ele *e){$/;"	f	class:list
+push	singleGlobalLock/list.h	/^list<Ele,Keytype>::push(Ele *e){$/;"	f	class:list
+push	tmLock/list.h	/^list<Ele,Keytype>::push(Ele *e){$/;"	f	class:list
+reset	defaultProgram/hash.h	/^hash<Ele,Keytype>::reset(){$/;"	f	class:hash
+reset	listLevelLock/hash.h	/^hash<Ele,Keytype>::reset(){$/;"	f	class:hash
+reset	singleGlobalLock/hash.h	/^hash<Ele,Keytype>::reset(){$/;"	f	class:hash
+reset	tmLock/hash.h	/^hash<Ele,Keytype>::reset(){$/;"	f	class:hash
+sample	defaultProgram/randtrack.cc	/^  sample(unsigned the_key){my_key = the_key; count = 0;};$/;"	f	class:sample
+sample	defaultProgram/randtrack.cc	/^class sample {$/;"	c	file:
+sample	listLevelLock/randtrack.cc	/^  sample(unsigned the_key){my_key = the_key; count = 0;};$/;"	f	class:sample
+sample	listLevelLock/randtrack.cc	/^class sample {$/;"	c	file:
+sample	singleGlobalLock/randtrack.cc	/^  sample(unsigned the_key){my_key = the_key; count = 0;};$/;"	f	class:sample
+sample	singleGlobalLock/randtrack.cc	/^class sample {$/;"	c	file:
+sample	tmLock/randtrack.cc	/^  sample(unsigned the_key){my_key = the_key; count = 0;};$/;"	f	class:sample
+sample	tmLock/randtrack.cc	/^class sample {$/;"	c	file:
+samples_to_skip	defaultProgram/randtrack.cc	/^unsigned samples_to_skip;$/;"	v
+samples_to_skip	listLevelLock/randtrack.cc	/^unsigned samples_to_skip;$/;"	v
+samples_to_skip	singleGlobalLock/randtrack.cc	/^unsigned samples_to_skip;$/;"	v
+samples_to_skip	tmLock/randtrack.cc	/^unsigned samples_to_skip;$/;"	v
+setup	defaultProgram/hash.h	/^hash<Ele,Keytype>::setup(unsigned the_size_log){$/;"	f	class:hash
+setup	defaultProgram/list.h	/^list<Ele,Keytype>::setup(){$/;"	f	class:list
+setup	listLevelLock/hash.h	/^hash<Ele,Keytype>::setup(unsigned the_size_log){$/;"	f	class:hash
+setup	listLevelLock/list.h	/^list<Ele,Keytype>::setup(){$/;"	f	class:list
+setup	singleGlobalLock/hash.h	/^hash<Ele,Keytype>::setup(unsigned the_size_log){$/;"	f	class:hash
+setup	singleGlobalLock/list.h	/^list<Ele,Keytype>::setup(){$/;"	f	class:list
+setup	tmLock/hash.h	/^hash<Ele,Keytype>::setup(unsigned the_size_log){$/;"	f	class:hash
+setup	tmLock/list.h	/^list<Ele,Keytype>::setup(){$/;"	f	class:list
+start	listLevelLock/randtrack.cc	/^	int start;$/;"	m	struct:functionArgs	file:
+start	singleGlobalLock/randtrack.cc	/^	int start;$/;"	m	struct:functionArgs	file:
+start	tmLock/randtrack.cc	/^	int start;$/;"	m	struct:functionArgs	file:
+team	defaultProgram/defs.h	/^  const char *team;$/;"	m	struct:__anon3
+team	defaultProgram/randtrack.cc	/^team_t team = {$/;"	v
+team	listLevelLock/defs.h	/^  const char *team;$/;"	m	struct:__anon2
+team	listLevelLock/randtrack.cc	/^team_t team = {$/;"	v
+team	singleGlobalLock/defs.h	/^  const char *team;$/;"	m	struct:__anon4
+team	singleGlobalLock/randtrack.cc	/^team_t team = {$/;"	v
+team	tmLock/defs.h	/^  const char *team;$/;"	m	struct:__anon1
+team	tmLock/randtrack.cc	/^team_t team = {$/;"	v
+team_t	defaultProgram/defs.h	/^} team_t;$/;"	t	typeref:struct:__anon3
+team_t	listLevelLock/defs.h	/^} team_t;$/;"	t	typeref:struct:__anon2
+team_t	singleGlobalLock/defs.h	/^} team_t;$/;"	t	typeref:struct:__anon4
+team_t	tmLock/defs.h	/^} team_t;$/;"	t	typeref:struct:__anon1
+threadNumber	listLevelLock/randtrack.cc	/^	int threadNumber;$/;"	m	struct:functionArgs	file:
+threadNumber	singleGlobalLock/randtrack.cc	/^	int threadNumber;$/;"	m	struct:functionArgs	file:
+threadNumber	tmLock/randtrack.cc	/^	int threadNumber;$/;"	m	struct:functionArgs	file:

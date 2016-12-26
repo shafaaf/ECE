@@ -1,0 +1,59 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC = g++-4.9$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -O3$/;"	m
+HASH_H	hash.h	3;"	d
+HASH_INDEX	hash.h	8;"	d
+LIST_H	list.h	3;"	d
+NUM_SEED_STREAMS	randtrack.cc	11;"	d	file:
+RAND_NUM_UPPER_BOUND	randtrack.cc	10;"	d	file:
+SAMPLES_TO_COLLECT	randtrack.cc	9;"	d	file:
+_DEFS_H_	defs.h	2;"	d
+cleanup	hash.h	/^hash<Ele,Keytype>::cleanup(){$/;"	f	class:hash
+cleanup	list.h	/^list<Ele,Keytype>::cleanup(){$/;"	f	class:list
+count	randtrack.cc	/^  unsigned count;$/;"	m	class:sample	file:
+email1	defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon1
+email2	defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon1
+entries	hash.h	/^  list<Ele,Keytype> *entries;$/;"	m	class:hash
+get_list	hash.h	/^hash<Ele,Keytype>::get_list(unsigned the_idx){$/;"	f	class:hash
+h	randtrack.cc	/^hash<sample,unsigned> h;$/;"	v
+hash	hash.h	/^template<class Ele, class Keytype> class hash {$/;"	c
+head	list.h	/^  Ele *head(){ return my_head; }$/;"	f	class:list
+insert	hash.h	/^hash<Ele,Keytype>::insert(Ele *e){$/;"	f	class:hash
+key	randtrack.cc	/^  unsigned key(){return my_key;}$/;"	f	class:sample
+list	list.h	/^  list(){$/;"	f	class:list
+list	list.h	/^template<class Ele, class Keytype> class list {$/;"	c
+lookup	hash.h	/^hash<Ele,Keytype>::lookup(Keytype the_key){$/;"	f	class:hash
+lookup	list.h	/^list<Ele,Keytype>::lookup(Keytype the_key){$/;"	f	class:list
+main	randtrack.cc	/^main (int argc, char* argv[]){$/;"	f
+my_head	list.h	/^  Ele *my_head;$/;"	m	class:list
+my_key	randtrack.cc	/^  unsigned my_key;$/;"	m	class:sample	file:
+my_num_ele	list.h	/^  unsigned long long my_num_ele;$/;"	m	class:list
+my_size	hash.h	/^  unsigned my_size;$/;"	m	class:hash
+my_size_log	hash.h	/^  unsigned my_size_log;$/;"	m	class:hash
+my_size_mask	hash.h	/^  unsigned my_size_mask;$/;"	m	class:hash
+name1	defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon1
+name2	defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon1
+next	randtrack.cc	/^  sample *next;$/;"	m	class:sample	file:
+num_ele	list.h	/^  unsigned num_ele(){return my_num_ele;}$/;"	f	class:list
+num_threads	randtrack.cc	/^unsigned num_threads;$/;"	v
+number1	defs.h	/^  const char *name1, *number1, *email1;$/;"	m	struct:__anon1
+number2	defs.h	/^  const char *name2, *number2, *email2;$/;"	m	struct:__anon1
+pop	list.h	/^list<Ele,Keytype>::pop(){$/;"	f	class:list
+print	hash.h	/^hash<Ele,Keytype>::print(FILE *f){$/;"	f	class:hash
+print	list.h	/^list<Ele,Keytype>::print(FILE *f){$/;"	f	class:list
+print	randtrack.cc	/^  void print(FILE *f){printf("%d %d\\n",my_key,count);}$/;"	f	class:sample
+push	list.h	/^list<Ele,Keytype>::push(Ele *e){$/;"	f	class:list
+reset	hash.h	/^hash<Ele,Keytype>::reset(){$/;"	f	class:hash
+sample	randtrack.cc	/^  sample(unsigned the_key){my_key = the_key; count = 0;};$/;"	f	class:sample
+sample	randtrack.cc	/^class sample {$/;"	c	file:
+samples_to_skip	randtrack.cc	/^unsigned samples_to_skip;$/;"	v
+setup	hash.h	/^hash<Ele,Keytype>::setup(unsigned the_size_log){$/;"	f	class:hash
+setup	list.h	/^list<Ele,Keytype>::setup(){$/;"	f	class:list
+team	defs.h	/^  const char *team;$/;"	m	struct:__anon1
+team	randtrack.cc	/^team_t team = {$/;"	v
+team_t	defs.h	/^} team_t;$/;"	t	typeref:struct:__anon1
